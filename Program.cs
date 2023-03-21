@@ -9,6 +9,9 @@ Array.Reverse(strArray);
 String reverseString = new string(strArray);
 
 
+toCheck = toCheck.ToLower();
+reverseString = reverseString.ToLower();
+
 if (toCheck.Equals(reverseString))
 {
     Console.WriteLine(toCheck + " is a palindrome.");
